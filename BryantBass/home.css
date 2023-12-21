@@ -322,3 +322,19 @@
   color: #ff0800;
   font-weight: 700;
 }
+
+/* laptop */
+
+@media screen and (max-width: 1366px) {
+  .main-section-container {
+    max-width: 1200px;
+  }
+
+  .primary-header {
+    font-size: 3.5rem;
+  }
+
+  .primary-text {
+    font-size: 1.2rem;
+  }
+}
