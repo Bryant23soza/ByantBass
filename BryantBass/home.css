@@ -395,6 +395,10 @@
   .main-content {
     max-width: 475px;
   }
+
+  .primary-header {
+    font-size: 2.2rem;
+  }
 }
 
 @media screen and (max-width: 475px) {
@@ -403,7 +407,7 @@
   }
 
   .primary-header {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .primary-text {
@@ -528,8 +532,12 @@
     max-width: 475px;
   }
 
+  .primary-video-header {
+    font-size: 2.2rem;
+  }
+
   .primary-video-video {
-    height: 250px;
+    height: 220px;
   }
 }
 
@@ -547,5 +555,117 @@
   }
   .primary-video-video {
     height: 180px;
+  }
+}
+
+/* Course section */
+
+.course-main {
+  height: 90vh;
+  background-color: #202124;
+}
+
+.course-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.course-header-content-first {
+  color: #fff;
+  font-size: 3rem;
+  margin: 0 20px;
+}
+
+.course-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9rem;
+  margin-top: 50px;
+}
+
+.course-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.course-img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.course-dev {
+  color: #fff;
+  background-color: green;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.course-header-content {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.course-list-container {
+  list-style: none;
+  margin: 20px auto;
+}
+
+.icon-course {
+  font-size: 1.5rem;
+}
+
+.course-list-content {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.course-btn {
+  color: #fff;
+  background-color: #ff0800;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  margin: 10px auto;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.course-btn:hover {
+  background-color: #de0600;
+}
+
+@media screen and (max-width: 1366px) {
+  .course-header-content-first {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .course-main {
+    height: 200vh;
+  }
+
+  .course-container {
+    flex-direction: column;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
   }
 }
