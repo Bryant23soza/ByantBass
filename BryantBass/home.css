@@ -558,6 +558,18 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .primary-video-video {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .primary-video-video {
+    height: 120px;
+  }
+}
+
 /* Course section */
 
 .course-main {
@@ -668,4 +680,115 @@
     align-items: center;
     margin: 50px auto;
   }
+}
+
+@media screen and (max-width: 640px) {
+  .course-header-content-first {
+    font-size: 1.7rem;
+  }
+}
+
+/* @media screen and (max-width: 475px) {
+  .course-container-content {
+  }
+
+  .course-img {
+  }
+} */
+
+@media screen and (max-width: 375px) {
+  .course-img {
+    height: 130px;
+  }
+
+  .course-btn {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+}
+
+/* information section one */
+
+.infor-main-one {
+  background-color: #202124;
+  height: 70vh;
+}
+
+.primary-infor-header-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17vh;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.info-container-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.infor-content-one {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 20px;
+}
+.primary-infor-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.primary-infor-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.infor-img-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.infor-img-one img {
+  border-radius: 10px;
+  height: 300px;
+}
+
+@media screen and (max-width: 1366px) {
+  .primary-infor-header-one {
+    font-size: 2.4rem;
+  }
+
+  .primary-infor-header {
+    font-size: 2.4rem;
+  }
+
+  .primary-infor-text {
+    font-size: 1.1rem;
+  }
+
+  .infor-img-one img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .info-container-one {
+    display: flex;
+      }
 }
