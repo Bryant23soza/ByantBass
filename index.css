@@ -101,6 +101,10 @@ html {
   transition: all 0.3s ease;
 }
 
+#id-main-course {
+  scroll-margin-top: 100px;
+}
+
 .navbar-links:after {
   content: "";
   height: 4px;
@@ -222,8 +226,8 @@ html {
 .main {
   background-image: linear-gradient(
       to bottom,
-      rgb(0, 0, 0, 0.9),
-      rgb(0, 0, 0, 0.7)
+      rgb(0, 0, 0, 0.7),
+      rgb(0, 0, 0, 0.5)
     ),
     url("/public/imgs/bryantbass.jpg");
   background-size: cover;
